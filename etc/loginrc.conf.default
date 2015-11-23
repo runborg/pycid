@@ -1,0 +1,13 @@
+#Syntax:
+# add [command] [host] [value]
+# add username [host] [username]
+# add password [host] [password]
+# add authuser [host] [enableusername]
+# add authpass [host] [enablepassword]
+# Allowed commands are [user, password, authuser, authpass]
+
+add authuser   * user1
+add authpass   * pass1
+
+add username * user1
+add password * pass1
